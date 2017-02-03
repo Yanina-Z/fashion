@@ -1,0 +1,80 @@
+h1 {
+  font-size: $h1-font-size;
+  font-family: 'Rozha One';
+  text-align: center;
+  line-height: 80px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Rozha One';
+  font-weight: normal;
+  font-size: $h2-font-size;
+  font-weight: normal;
+}
+
+h4 {
+  opacity: 0.3;
+  font-size: 25px;
+  text-align: center;
+  line-height: 29px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+h5 {
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+p {
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 29px;
+  color: #fff;
+}
+
+footer {
+  font-size: $footer-font-size;
+}
+
+body {
+  color: $body-color;
+  font-family: $body-font-family;
+}
+
+a {
+  color: $body-color;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.numbers {
+  background-color: $numbers-bg-color;
+  margin: auto;
+  min-width: 22px;
+  min-height: 22px;
+  border-radius: 50%;
+  line-height: 19px;
+  font-weight: bold;
+  text-align: center;
+
+  a {
+    color: $body-bg-color;
+  }
+}

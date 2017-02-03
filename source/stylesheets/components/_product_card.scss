@@ -1,0 +1,41 @@
+.product {
+  min-height: 340px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 224.18px;
+  height: 341px;
+  background-color: #181818;
+  justify-content: space-between;
+
+  .product-info {
+    padding-bottom: 27px;
+  }
+
+  .product-image {
+    min-height: 168px;
+  }
+
+  img {
+    padding-top: 50px;
+  }
+
+  .product-name{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+  }
+
+  a {
+    display: inline-block;
+  }
+
+  .price {
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 18px;
+    color: #E1C79B;
+    padding-top: 6px;
+  }
+
+}

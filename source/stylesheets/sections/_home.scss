@@ -1,0 +1,169 @@
+.home{
+
+  .hero{
+    background: url('/images/hero.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 110px;
+
+    h1{
+      max-width: 545px;
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .paginator{
+      margin-top: 170px;
+      padding-bottom: 45px;
+
+      .active {
+        border: 1px solid #E1C79B;
+        background-color: transparent;
+        opacity: 1;
+        margin: 0 10px;
+      }
+
+      span {
+        display: inline-block;
+        background-color: #fff;
+        opacity: 0.2;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+
+      }
+    }
+
+  }
+
+  .content-block {
+    margin-top: 240px;
+
+    .content-top {
+      background: url('/images/clock.png') no-repeat right top;
+      padding-bottom: 220px;
+
+       h2 {
+        max-width: 370px;
+       }
+
+       p {
+         max-width: 512px;
+       }
+
+       a{
+         border: 2px solid rgba(225,199,155,0.14);
+         margin-top: 30px;
+       }
+      }
+
+    .content-bottom {
+        text-align: center;
+
+        .products{
+          display: flex;
+          justify-content: space-between;
+          padding-bottom: 70px;
+        }
+
+        .button {
+          border: 2px solid rgba(225,199,155,0.14);
+        }
+      }
+
+  }
+
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-bottom: 70px;
+  }
+
+  .photos{
+    text-align: center;
+  }
+
+  .medal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 415px;
+    height: 415px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 100%;
+    position: relative;
+    background-color: #1A1A1A;
+    box-shadow: 0 0 40px black;
+
+    &::before {
+      content: '';
+      width: 90%;
+      height: 90%;
+      opacity: 0.2;
+      border: 2px solid #E1C79B;
+      position: absolute;
+      left: 5%;
+      top: 5%;
+      border-radius: 100%;
+    }
+
+    &::after {
+      content: '';
+      width: 80%;
+      height: 80%;
+      opacity: 0.2;
+      border: 2px dotted #E1C79B;
+      position: absolute;
+      left: 10%;
+      top: 10%;
+      border-radius: 100%;
+    }
+
+    h4 {
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: 4px;
+      padding-top: 45px;
+    }
+  }
+
+  .photos {
+    position: relative;
+
+    .view-gallery {
+      position:absolute;
+      top: 176px;
+      left: 303px;
+    }
+  }
+
+  .button-center {
+    text-align: center;
+  }
+
+  .brands {
+    border-top: 1px solid rgba(255,255,255,.05);
+    border-bottom: 1px solid rgba(255,255,255,.05);
+    margin-top: 186px;
+
+    .container ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        padding-top: 52px;
+        padding-bottom: 52px;
+      }
+    }
+
+  }
+
+}
