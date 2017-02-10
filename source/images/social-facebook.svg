@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>social-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.100000001">
+        <g id="Product" transform="translate(-960.000000, -1029.000000)" fill="#FFFFFF">
+            <g id="Details" transform="translate(900.000000, 271.000000)">
+                <g id="Social" transform="translate(0.000000, 758.000000)">
+                    <path d="M70,0 C64.4774996,0 60,4.47749963 60,10 C60,15.5225004 64.4774996,20 70,20 C75.5225004,20 80,15.5225004 80,10 C80,4.47626606 75.5225004,0 70,0 Z M72.5849932,9.99872531 L70.9462327,9.99995888 L70.9449991,15.9999342 L68.6962368,15.9999342 L68.6962368,10 L67.1962532,10 L67.1962532,7.93249067 L68.6962368,7.93125709 L68.6937285,6.71376174 C68.6937285,5.0262751 69.1512196,4.00002467 71.1374776,4.00002467 L72.7924801,4.00002467 L72.7924801,6.06876758 L71.7574713,6.06876758 C70.9837333,6.06876758 70.9462327,6.35750588 70.9462327,6.89624829 L70.9437244,7.93125709 L72.8037057,7.93125709 L72.5849932,9.99872531 Z" id="social-facebook"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

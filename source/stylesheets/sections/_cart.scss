@@ -1,0 +1,152 @@
+.cart-page{
+
+  form {
+    overflow: auto;
+  }
+  table {
+    width: 100%;
+
+    .product-photo {
+      width: 197px;
+    }
+    .name-and-price {
+      width: 100%;
+    }
+
+    td.number-of-products{
+      width: 58px;
+      text-align: center;
+    }
+
+    .transparent-boarder {
+      border-radius: 20px;
+    }
+
+    .number-of-products a {
+      display: inline-block;
+      font-size: 30px;
+      opacity: 0.3;
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+
+
+  }
+
+  .cart {
+    margin-bottom: 75px;
+
+    h3 {
+      margin-bottom: 0;
+    }
+
+    span {
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 19px;
+    }
+  }
+
+  .product-photo {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    height: 196px;
+    background-color: #181818;
+
+    img {
+      padding-top: 25px;
+      mix-blend-mode: lighten;
+    }
+  }
+
+  .name-and-price {
+    padding-left: 30px;
+
+    h4 {
+      letter-spacing: normal;
+      opacity: 1;
+      text-transform: capitalize;
+      margin: 0;
+      text-align: left;
+    }
+
+    h5{
+      color: #E1C79B;
+      line-height: 31px;
+      margin-top: 0;
+      font-weight: 400;
+    }
+
+    a.remove {
+      opacity: 0.2;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 24px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      text-decoration: underline;
+    }
+  }
+
+  .tfoot {
+    text-align: right;
+    font-size: 20px;
+    padding-top: 90px;
+
+    .first-price span {
+      padding-top: 75px;
+    }
+
+    .shipping {
+      color: #5b5b5b;
+
+      .price {
+        font-size: 20px;
+        line-height: 23px;
+        color: #E1C79B;
+        text-transform: uppercase;
+      }
+    }
+
+    .first-price {
+      color: #5b5b5b;
+      margin-bottom: 22px;
+
+      .price {
+        font-size: 25px;
+        color: #fff;
+      }
+    }
+
+    .price,
+    .total {
+      min-width: 200px;
+      display: inline-block;
+    }
+
+    .total-price {
+      font-size: 25px;
+      margin-top: 90px;
+
+      .total{
+        font-size: 45px;
+      }
+    }
+
+  }
+
+button {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 442px;
+  height: 77px;
+  float: right;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+}

@@ -1,0 +1,28 @@
+.page-collection {
+  h2{
+    max-width: 327px;
+    margin: 145px auto 35px;
+  }
+
+  p {
+    max-width: 512px;
+    margin: 0 auto;
+    opacity: 0.6;
+  }
+
+  .collection {
+    padding-top: 145px;
+    padding-bottom: 180px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .product {
+      margin-bottom: 40px;
+    }
+
+    .product a img {
+      padding-top: 82px;
+    }
+  }
+}

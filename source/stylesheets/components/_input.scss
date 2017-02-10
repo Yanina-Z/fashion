@@ -1,0 +1,24 @@
+.input {
+  background-color: transparent;
+  border: none;
+  font-family: Karla;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 58px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}

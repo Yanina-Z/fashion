@@ -7,8 +7,14 @@
 @import "components/header";
 @import "components/product_card";
 @import "components/footer";
+@import "components/input";
+@import "components/drop_down_menu";
 
 @import "shared/typography";
 @import "shared/base";
+@import "shared/helpers";
 
 @import "sections/home";
+@import "sections/collection";
+@import "sections/cart";
+@import "sections/product_page";
